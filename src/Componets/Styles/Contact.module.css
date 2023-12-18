@@ -1,0 +1,280 @@
+.Contact {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient( rgb(35, 143, 143), rgba(41, 120, 140, 0.918));
+    display: flex;
+    flex-direction: column;
+    color: white;
+    overflow: hidden;
+}
+.top{
+    height:50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid white; */
+    align-items: center;
+}
+.bottom{
+    height:50%;
+    width: 100%;
+}
+.mobileApps{
+    height:80%;
+    width: 25%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.careersAnd{
+    height:60%;
+    width: 14%;
+    /* background-color: red; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; */
+    /* display: flex; */
+}
+.careersAnd li{
+    height:25%;
+    width: 100%;
+    
+}
+.contactUs{
+    height:75%;
+    width: 16%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+.legalAnd{
+    height:60%;
+    width: 16%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center; 
+}
+.reachOut{
+    height:60%;
+    width: 18%;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.legal{
+    height: 25%;
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+
+}
+
+.careers{
+    height:auto;
+    width:100%;
+    font-size: 1.5rem;
+    /* font-family: cursive; */
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color:white;
+}
+.reach{
+    height:40%;
+    width: 40%;
+    background-image: url('https://cdn.siasat.com/wp-content/uploads/2021/01/1200-900-Facebook.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-decoration: none;
+    border-radius: 1rem;
+
+}
+.reachl{
+    height:40%;
+    width: 40%;
+    background-image: url('https://play-lh.googleusercontent.com/kMofEFLjobZy_bCuaiDogzBcUT-dz3BBbOrIEjJ-hqOabjK8ieuevGe6wlTD15QzOqw');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-decoration: none; 
+    border-radius: 1rem;
+
+}
+.reachg{
+    height:40%;
+    width: 40%;
+    background-image: url('https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-decoration: none;
+    border-radius: 1rem;
+
+}
+.reachy{
+    height:40%;
+    width: 40%;
+    background-image: url('https://play-lh.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc=w240-h480-rw');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-decoration: none;
+    border-radius: 1rem;
+}
+.contactus{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.contactusi{
+    font-style: italic;
+    font-family: cursive;
+    font-size: 0.8rem;
+}
+.mAHeading{
+    height:30%;
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.mAQuote{
+    height:30%;
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.mASymbols{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.getItOnPlaystore{
+    height:80%;
+    width: 45%;
+    background-image: url('https://e7.pngegg.com/pngimages/52/715/png-clipart-google-play-logo-google-play-computer-icons-app-store-google-text-logo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.getItOnApplestore{
+    height:60%;
+    width: 45%;
+    background-image: url('https://w7.pngwing.com/pngs/506/939/png-transparent-app-store-logo-iphone-app-store-get-started-now-button-electronics-text-telephone-call.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.moreOnBusyBuyH{
+    /* height:; */
+    font-size: 2rem;
+    font-weight: bold;
+    /* border-bottom: 3px solid white; */
+}
+.moreOnBusyBuySH{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.moreOnBusyBuySHP{
+    font-style: italic;
+    margin-left: 2vw;
+}
+
+/* ===============================================Mobile-View================================================================ */
+@media screen and (max-width: 600px) {
+    .Contact {
+        flex-direction: column;
+        width: 100vw;
+        height: 200vh;
+    }
+    .mobileApps{
+        height:60%;
+        width: 100%;
+    }
+    .careersAnd, .legalAnd, .reachOut, .contactUs{
+        height:20%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        /* border: 3px solid white; */
+
+
+    }
+    .careersAnd li{
+        height:100%;
+        width: 20%;
+        list-style: none;
+        
+    }
+    .careers{
+        height:100%;
+        width: 20%;
+        font-size: 1.3rem;
+    }
+    .top{
+        height:95%;
+        width: 100%;
+        flex-direction: column;
+    }
+    .bottom{
+        height:95%;
+        width: 100%;
+    }
+    .legal{
+        flex-direction: row;
+        height:100%;
+        width: 25%;
+        
+    }
+    .reachOut{
+        height:15%;
+        width: 100%;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .reach , .reachl, .reachy, .reachg{
+        height:80%;
+        width: 22%;
+    }
+    .contactUs{
+        align-items: none;
+        flex-direction: column;
+    }
+    .contactus{
+        color: rgb(191, 139, 71);
+    }
+    .brT{
+        display: none;
+    }
+
+}
